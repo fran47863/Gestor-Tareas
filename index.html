@@ -7,7 +7,23 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Gestor de Tareas</h1>
+        <div class="container">
+            <h1>Formulario de Gestión</h1>
+
+            <form id="task-form">
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="Escribe una nueva tarea..."
+                    required
+                >
+                <button type="submit">Agregar</button>                
+            </form>
+
+            <button id="reset-btn" type="click">Reset</button>
+
+            <ul id="task-list"></ul>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
